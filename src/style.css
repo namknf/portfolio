@@ -59,17 +59,6 @@
   line-height: 42px;
 }
 
-.resume {
-  position: absolute;
-  left: 3.66%;
-  right: 0%;
-  top: 10.29%;
-  bottom: 0%;
-  color: #474306;
-  background: #f5ee84;
-  border-radius: 6px;
-}
-
 .me {
   position: absolute;
   width: 506px;
