@@ -9,39 +9,117 @@
       type="image/x-icon"
     />
   </head>
-  <body style="font-family: 'Poppins', sans-serif">
-    <div class="elements">
-      <div class="navbar">
-        <div class="name">Anastasia Malkina</div>
-        <div class="routes">
-          <div>Home</div>
-          <div style="margin-left: 30px">About Me</div>
-          <div style="margin-left: 30px">Contact</div>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header__inner">
+            <h3 class="name">Anastasia Malkina</h3>
+            <nav class="routes">
+              <a href="index.html">Home</a>
+              <a href="#AboutMe">About Me</a>
+              <a href="#Contact">Contact</a>
+            </nav>
+            <nav class="routes">
+              <a href="https://github.com/namknf"
+                ><img
+                  height="30px"
+                  width="30px"
+                  src="src/images/github.png"
+                  alt="githab link"
+              /></a>
+              <a href="https://mail.ru/"
+                ><img
+                  src="src/images/email.png"
+                  height="20px"
+                  width="30px"
+                  alt="email link"
+              /></a>
+              <a></a>
+            </nav>
+          </div>
         </div>
-        <div class="welcome">
-          <div class="hello">Hello, I am Nastya,</div>
-          <div class="profession">.NET Developer</div>
-          <div class="fut">(in the future)</div>
+      </header>
+      <section class="about__me">
+        <div class="container">
+          <div class="about__inner">
+            <div>
+              <div class="text-regular">Hello, I am Nastya,</div>
+              <div class="text-big about__language">.NET</div>
+              <div class="text-big">Developer</div>
+              <div class="text-regular about__future">(in the future)</div>
+              <form action="resume.html">
+              <button>Resume</button>
+              </form>
+            </div>
+            <div class="image">
+              <img
+                src="src/images/nastya.png"
+                alt="nastya"
+                height="450px"
+                weight="450px"
+              />
+              <div class="round"></div>
+            </div>
+          </div>
         </div>
-        <div class="me">
+      </section>
+      <section class="container usually__text">
+        <h2><a name="AboutMe">about.</a></h2>
+        <p class="introduction">
+          I am a programmer from Russia. I am learning C# programming language
+          about 7 months. At first I made small games in Unity, but now I'm
+          learning the ASP.NET Core framework and web-technologies. What can I
+          say about my experience:
+        </p>
+        <ul>
+          <li>
+            <h3>2021 June - 2021 September</h3>
+            <p>
+              Created games in the Unity engine. The projects: "The Farm",
+              "Flappy Bird Clone", "Counter". Mastered PixelArt.
+            </p>
+          </li>
+          <li>
+            <h3>2021 October - Present</h3>
+            <p>
+              I enrolled in a programming course "Development in C#/.NET". And
+              now it's coming to an end. Also I am learning ASP.NET Core
+              framework and creating my own projects. You can see all them on my
+              GitHub profile.
+            </p>
+          </li>
+          <li>
+            <h3>My hobbies and me</h3>
+            <p>
+              I study at Mordovian University named after Ogarev. Specialty -
+              programming in computer systems. I like programming, of course!
+              But, what's more, I like reading books and drawing some cute
+              pictures (it is for my soul). Also I like active: I often cycle
+              (when the weather lets me). I am very cheerful and never get bored
+              with me.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="container usually__text">
+        <h2><a name="Contact">contact.</a></h2>
+        <p>
           <img
-            src="src/images/nastya.png"
-            alt="nastya"
-            height="450px"
-            weight="450px"
+            src="src/images/notebook.jpg"
+            height="300"
+            width="500"
+            class="block__inner"
           />
-        </div>
-        <div class="round"></div>
-        <div class="lines">/ / / /</div>
-        <div class="stars">
-          <img
-            src="src/images/stars.png"
-            alt="stars"
-            height="40px"
-            weight="40px"
-          />
-        </div>
-      </div>
+        </p>
+
+        <p>
+          if you are interested, you can contact me.</p>
+          Email: anastmalkina0@gmail.com <br />
+          <a href="https://join.skype.com/invite/LsOiMkYLehhy">Skype</a><br />
+          <a href="https://t.me/NSTSIYA">Telegram</a>
+        </p>
+      </section>
     </div>
   </body>
 </html>
